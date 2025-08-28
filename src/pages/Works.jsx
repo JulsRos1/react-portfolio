@@ -114,7 +114,6 @@ const Works = () => {
                     </CardContent>
                   </Card>
                 </motion.div>
-                <h1> GAGO </h1>
               </CarouselItem>
             ))}
           </CarouselContent>
