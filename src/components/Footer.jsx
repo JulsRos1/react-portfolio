@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <footer className="w-full bg-black border-t-1 border-neutral-200">
       <div className="h-55 flex flex-col justify-center items-center gap-6">
-        <h1 className="text-white text-3xl font-semibold border-b-2 border-slate-700 pb-1">
+        <h1 className="text-white text-3xl font-semibold border-b-2 border-[#66B933] pb-1">
           Contact Me
         </h1>
 
         <ul className="flex justify-center items-center gap-4">
           {[
-            { Icon: Facebook, link: "https://facebook.com" },
-            { Icon: Instagram, link: "https://instagram.com" },
-            { Icon: Linkedin, link: "https://linkedin.com" },
-            { Icon: Github, link: "https://github.com" },
-            { Icon: Mail, link: "mailto:your@email.com" },
+            { Icon: Facebook, link: "https://www.facebook.com/jjuliarns/" },
+            { Icon: Instagram, link: "https://www.instagram.com/lokijrs_/" },
+            { Icon: Linkedin, link: "https://www.linkedin.com/in/jenn-julian-ros-3016702b3/" },
+            { Icon: Github, link: "https://github.com/JulsRos1" },
+            { Icon: Mail, link: "mailto:jjulsros@gmail.com" },
           ].map(({ Icon, link }, idx) => (
             <li key={idx}>
               <a
