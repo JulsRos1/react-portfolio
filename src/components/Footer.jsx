@@ -11,11 +11,11 @@ const Footer = () => {
 
         <ul className="flex justify-center items-center gap-4">
           {[
-            { Icon: Facebook, link: "https://facebook.com" },
-            { Icon: Instagram, link: "https://instagram.com" },
-            { Icon: Linkedin, link: "https://linkedin.com" },
-            { Icon: Github, link: "https://github.com" },
-            { Icon: Mail, link: "mailto:your@email.com" },
+            { Icon: Facebook, link: "https://www.facebook.com/jjuliarns/" },
+            { Icon: Instagram, link: "https://www.instagram.com/lokijrs_/" },
+            { Icon: Linkedin, link: "https://www.linkedin.com/in/jenn-julian-ros-3016702b3/" },
+            { Icon: Github, link: "https://github.com/JulsRos1" },
+            { Icon: Mail, link: "mailto:jjulsros@gmail.com" },
           ].map(({ Icon, link }, idx) => (
             <li key={idx}>
               <a
