@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="w-full bg-black border-t-1 border-neutral-200">
       <div className="h-55 flex flex-col justify-center items-center gap-6">
         <h1 className="text-white text-3xl font-semibold border-b-2 border-[#66B933] pb-1">
-          Contact Me
+          Socials
         </h1>
 
         <ul className="flex justify-center items-center gap-4">
