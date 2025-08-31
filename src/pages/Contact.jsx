@@ -99,7 +99,7 @@ export default function Contact() {
 
               {/* Right Panel / Form */}
               <div className="col-span-5 md:col-span-3 p-6 sm:p-10">
-                <p className="mt-2 text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground">
                   Contact me here if you have any concerns
                 </p>
 

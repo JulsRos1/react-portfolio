@@ -22,7 +22,6 @@ const Skills = () => {
     { name: 'NodeJS', img: node },
   ];
 
-  // Parent variant for stagger effect
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -33,7 +32,6 @@ const Skills = () => {
     },
   };
 
-  // Child variant for each skill card
   const item = {
     hidden: { opacity: 0, y: 30, scale: 0.95 },
     show: { opacity: 1, y: 0, scale: 1, transition: { type: 'spring', stiffness: 120 } },
@@ -41,7 +39,6 @@ const Skills = () => {
 
   return (
     <section className="max-w-6xl h-full mx-auto px-5 mt-30" id="skills">
-      {/* Heading */}
       <div className="flex items-center justify-center mb-10 border-b-3 border-[#66B933] max-w-59 mx-auto">
         <motion.h1
           className="text-4xl font-extrabold text-white"

@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import dgphoto from "../assets/dgphoto.png";
+import bgpwd from "../assets/bgpwd.png";
+
 import {
   Carousel,
   CarouselContent,
@@ -17,7 +19,7 @@ const Works = () => {
       heading: "PWDIS",
       content:
         "PWDIS is a user-friendly website designed to provide  accessible resources and information for  individuals with disabilities. The platform serves as a one-stop hub where users can find valuable resources catered specifically to their needs. A standout feature of the site is the interactive mapping tool, which allows users to identify  PWD (Person with Disabilities) accessible locations.",
-      img: dgphoto,
+      img: bgpwd,
     },
     {
       id: 2,
@@ -104,9 +106,6 @@ const Works = () => {
                       </motion.div>
 
                       <motion.div variants={item} className="flex gap-2 mt-auto">
-                        <button className="px-8 py-1 rounded-lg shadow-md border-2 border-[#66B933] bg-black text-secondary font-semibold transition-all duration-300 ease-out hover:bg-[#66B933] hover:text-black hover:shadow-[0_0_20px_#66B933] hover:scale-105">
-                          Visit
-                        </button>
                         <button className="px-6 py-1 rounded-lg shadow-md border-2 border-[#66B933] bg-black text-secondary font-semibold transition-all duration-300 ease-out hover:bg-[#66B933] hover:text-black hover:shadow-[0_0_20px_#66B933] hover:scale-105">
                           Github
                         </button>
